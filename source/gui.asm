@@ -428,10 +428,10 @@ draw_window:
     mov di, 24
     call draw_rectangle
 
-    mov bl, [shadow_color]      ; Draw left shadow
+    mov bl, [shadow_color]      ; Draw right shadow
     mov dl, 71
     mov dh, 3
-    mov si, 1
+    mov si, 2
     mov di, 24
     call draw_rectangle
 

@@ -158,8 +158,8 @@ Int20h:
 
 ;===================================================
 ;  int 63h - Move cursor
-;   DH - x pos
-;   DL - y pos
+;   DH - y pos
+;   DL - x pos
 move_cursor:
     pusha
     mov bh, 0
